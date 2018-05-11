@@ -39,14 +39,6 @@ input{
     padding:2%;
     background-color:rgba(0,0,0,0.5);
 }
-@media only screen and (max-width: 700px){
-    .form-box{
-        margin:3%; 
-    }
-    .lock-img{
-        display: none;
-    }
-}
 .signup-radio{
     display: flex;
 }
@@ -78,4 +70,21 @@ input{
     display: flex;
     float: left;
     background: #596da2;
+}
+
+@media only screen and (max-width: 700px){
+    h1{
+        font-size: 30px;
+    }
+    .form-box{
+        margin:3%;
+        padding: 3%;
+    }
+    .lock-img{
+        display: none;
+    }
+    .btnx{
+        width:130px;
+        margin:8px;
+    }
 }
